@@ -20,6 +20,9 @@
 		4678A0D3195B59510018FDF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4678A0D1195B59510018FDF2 /* InfoPlist.strings */; };
 		4678A0D5195B59510018FDF2 /* NearbyLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678A0D4195B59510018FDF2 /* NearbyLocatorTests.m */; };
 		4678A0E0195B59DA0018FDF2 /* NLDirectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678A0DF195B59DA0018FDF2 /* NLDirectionManager.m */; };
+		46FF4F68195B5E180098214F /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46FF4F66195B5E180098214F /* Storyboard.storyboard */; };
+		46FF4F69195B5E180098214F /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 46FF4F67195B5E180098214F /* triangle.png */; };
+		46FF4F6C195B5E330098214F /* NLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FF4F6B195B5E330098214F /* NLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		4678A0D4195B59510018FDF2 /* NearbyLocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyLocatorTests.m; sourceTree = "<group>"; };
 		4678A0DE195B59DA0018FDF2 /* NLDirectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLDirectionManager.h; sourceTree = "<group>"; };
 		4678A0DF195B59DA0018FDF2 /* NLDirectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLDirectionManager.m; sourceTree = "<group>"; };
+		46FF4F66195B5E180098214F /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		46FF4F67195B5E180098214F /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		46FF4F6A195B5E330098214F /* NLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLViewController.h; sourceTree = "<group>"; };
+		46FF4F6B195B5E330098214F /* NLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +121,10 @@
 				4678A0BF195B59510018FDF2 /* NLAppDelegate.m */,
 				4678A0DE195B59DA0018FDF2 /* NLDirectionManager.h */,
 				4678A0DF195B59DA0018FDF2 /* NLDirectionManager.m */,
+				46FF4F6A195B5E330098214F /* NLViewController.h */,
+				46FF4F6B195B5E330098214F /* NLViewController.m */,
+				46FF4F66195B5E180098214F /* Storyboard.storyboard */,
+				46FF4F67195B5E180098214F /* triangle.png */,
 				4678A0C1195B59510018FDF2 /* Images.xcassets */,
 				4678A0B6195B59510018FDF2 /* Supporting Files */,
 			);
@@ -226,9 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4678A0BA195B59510018FDF2 /* InfoPlist.strings in Resources */,
-				499A6DCC195B5A0000E5566E /* triangle.png in Resources */,
+				46FF4F69195B5E180098214F /* triangle.png in Resources */,
 				4678A0C2195B59510018FDF2 /* Images.xcassets in Resources */,
-				499A6DC8195B59C300E5566E /* Storyboard.storyboard in Resources */,
+				46FF4F68195B5E180098214F /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,9 +258,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				499A6DCF195B5A3600E5566E /* NLViewController.m in Sources */,
 				4678A0C0195B59510018FDF2 /* NLAppDelegate.m in Sources */,
 				4678A0BC195B59510018FDF2 /* main.m in Sources */,
+				46FF4F6C195B5E330098214F /* NLViewController.m in Sources */,
 				4678A0E0195B59DA0018FDF2 /* NLDirectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
