@@ -19,6 +19,7 @@
 		4678A0CB195B59510018FDF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A0B3195B59510018FDF2 /* UIKit.framework */; };
 		4678A0D3195B59510018FDF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4678A0D1195B59510018FDF2 /* InfoPlist.strings */; };
 		4678A0D5195B59510018FDF2 /* NearbyLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678A0D4195B59510018FDF2 /* NearbyLocatorTests.m */; };
+		4678A0E0195B59DA0018FDF2 /* NLDirectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678A0DF195B59DA0018FDF2 /* NLDirectionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		4678A0D0195B59510018FDF2 /* NearbyLocatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NearbyLocatorTests-Info.plist"; sourceTree = "<group>"; };
 		4678A0D2195B59510018FDF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4678A0D4195B59510018FDF2 /* NearbyLocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyLocatorTests.m; sourceTree = "<group>"; };
+		4678A0DE195B59DA0018FDF2 /* NLDirectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLDirectionManager.h; sourceTree = "<group>"; };
+		4678A0DF195B59DA0018FDF2 /* NLDirectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLDirectionManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				4678A0BE195B59510018FDF2 /* NLAppDelegate.h */,
 				4678A0BF195B59510018FDF2 /* NLAppDelegate.m */,
+				4678A0DE195B59DA0018FDF2 /* NLDirectionManager.h */,
+				4678A0DF195B59DA0018FDF2 /* NLDirectionManager.m */,
 				4678A0C1195B59510018FDF2 /* Images.xcassets */,
 				4678A0B6195B59510018FDF2 /* Supporting Files */,
 			);
@@ -242,6 +247,7 @@
 			files = (
 				4678A0C0195B59510018FDF2 /* NLAppDelegate.m in Sources */,
 				4678A0BC195B59510018FDF2 /* main.m in Sources */,
+				4678A0E0195B59DA0018FDF2 /* NLDirectionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
