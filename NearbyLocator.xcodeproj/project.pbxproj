@@ -19,6 +19,9 @@
 		4678A0CB195B59510018FDF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4678A0B3195B59510018FDF2 /* UIKit.framework */; };
 		4678A0D3195B59510018FDF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4678A0D1195B59510018FDF2 /* InfoPlist.strings */; };
 		4678A0D5195B59510018FDF2 /* NearbyLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4678A0D4195B59510018FDF2 /* NearbyLocatorTests.m */; };
+		499A6DC8195B59C300E5566E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499A6DC7195B59C300E5566E /* Storyboard.storyboard */; };
+		499A6DCC195B5A0000E5566E /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 499A6DCA195B5A0000E5566E /* triangle.png */; };
+		499A6DCF195B5A3600E5566E /* NLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 499A6DCE195B5A3600E5566E /* NLViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,10 @@
 		4678A0D0195B59510018FDF2 /* NearbyLocatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NearbyLocatorTests-Info.plist"; sourceTree = "<group>"; };
 		4678A0D2195B59510018FDF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4678A0D4195B59510018FDF2 /* NearbyLocatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NearbyLocatorTests.m; sourceTree = "<group>"; };
+		499A6DC7195B59C300E5566E /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		499A6DCA195B5A0000E5566E /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		499A6DCD195B5A3600E5566E /* NLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLViewController.h; sourceTree = "<group>"; };
+		499A6DCE195B5A3600E5566E /* NLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +116,10 @@
 			children = (
 				4678A0BE195B59510018FDF2 /* NLAppDelegate.h */,
 				4678A0BF195B59510018FDF2 /* NLAppDelegate.m */,
+				499A6DC7195B59C300E5566E /* Storyboard.storyboard */,
+				499A6DCD195B5A3600E5566E /* NLViewController.h */,
+				499A6DCE195B5A3600E5566E /* NLViewController.m */,
+				499A6DCA195B5A0000E5566E /* triangle.png */,
 				4678A0C1195B59510018FDF2 /* Images.xcassets */,
 				4678A0B6195B59510018FDF2 /* Supporting Files */,
 			);
@@ -221,7 +232,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4678A0BA195B59510018FDF2 /* InfoPlist.strings in Resources */,
+				499A6DCC195B5A0000E5566E /* triangle.png in Resources */,
 				4678A0C2195B59510018FDF2 /* Images.xcassets in Resources */,
+				499A6DC8195B59C300E5566E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499A6DCF195B5A3600E5566E /* NLViewController.m in Sources */,
 				4678A0C0195B59510018FDF2 /* NLAppDelegate.m in Sources */,
 				4678A0BC195B59510018FDF2 /* main.m in Sources */,
 			);
@@ -440,6 +454,7 @@
 				4678A0DA195B59510018FDF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4678A0DB195B59510018FDF2 /* Build configuration list for PBXNativeTarget "NearbyLocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +463,7 @@
 				4678A0DD195B59510018FDF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
