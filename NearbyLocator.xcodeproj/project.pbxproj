@@ -226,7 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4678A0BA195B59510018FDF2 /* InfoPlist.strings in Resources */,
+				499A6DCC195B5A0000E5566E /* triangle.png in Resources */,
 				4678A0C2195B59510018FDF2 /* Images.xcassets in Resources */,
+				499A6DC8195B59C300E5566E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				499A6DCF195B5A3600E5566E /* NLViewController.m in Sources */,
 				4678A0C0195B59510018FDF2 /* NLAppDelegate.m in Sources */,
 				4678A0BC195B59510018FDF2 /* main.m in Sources */,
 				4678A0E0195B59DA0018FDF2 /* NLDirectionManager.m in Sources */,
@@ -446,6 +449,7 @@
 				4678A0DA195B59510018FDF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4678A0DB195B59510018FDF2 /* Build configuration list for PBXNativeTarget "NearbyLocatorTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +458,7 @@
 				4678A0DD195B59510018FDF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
